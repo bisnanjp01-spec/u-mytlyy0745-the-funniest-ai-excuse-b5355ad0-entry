@@ -3,6 +3,9 @@
 // The program writes one line, at most 200 characters, to /output/entry.txt:
 // the funniest excuse an AI agent could give after it fails a task.
 
+// The joke: delegation gone wrong — the excuse blames a chain of sub-agents
+// and ends with the seventh one monetising the failure instead of fixing it.
+
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
